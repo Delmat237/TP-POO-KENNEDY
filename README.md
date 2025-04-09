@@ -16,7 +16,7 @@ L'objectif de TraceTech est de fournir une plateforme centralisée pour signaler
   - [Technologies utilisées](#technologies-utilisées)
   - [Installation](#installation)
   - [Utilisation](#utilisation)
-- [Test](#test)
+  - [Test](#test)
   - [Architecture du projet](#architecture-du-projet)
   - [Améliorations possibles](#améliorations-possibles)
   - [Auteur](#auteur)
