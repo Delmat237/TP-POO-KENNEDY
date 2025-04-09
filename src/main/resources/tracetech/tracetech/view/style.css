@@ -1,0 +1,148 @@
+/* style.css */
+
+/* Styles généraux */
+.root {
+    -fx-font-family: "Arial, sans-serif";
+    -fx-font-size: 14px;
+    -fx-background-color: #f4f4f4;
+}
+
+/* Titres */
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-padding: 5px;
+}
+
+/* TextFields et PasswordFields */
+.text-field,
+.password-field {
+    -fx-padding: 8px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #fff;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused,
+.password-field:focused {
+    -fx-border-color: #4CAF50;
+}
+
+/* TextAreas */
+.text-area {
+    -fx-padding: 8px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #fff;
+    -fx-font-size: 14px;
+}
+
+.text-area .content {
+    -fx-background-color: #fff;
+}
+
+.text-area:focused {
+    -fx-border-color: #4CAF50;
+}
+
+/* Boutons */
+.button {
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #388E3C;
+}
+
+.button:pressed {
+    -fx-background-color: #1B5E20;
+}
+
+/* DatePicker */
+.date-picker {
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #fff;
+}
+
+.date-picker .text-field {
+    -fx-font-size: 14px;
+}
+
+/* Grids */
+.grid-pane {
+    -fx-padding: 20px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+/* Onglets (Tabs) */
+.tab-pane .tab-header-area .tab {
+    -fx-padding: 10px 20px;
+}
+
+.tab-pane .tab-header-area .tab:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.tab-pane .tab-header-area .tab .tab-label {
+    -fx-text-fill: #555;
+    -fx-font-size: 14px;
+}
+
+.tab-pane .tab-header-area .tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+/* Style pour le message d'erreur */
+#errorMessage {
+    -fx-text-fill: red;
+    -fx-font-weight: bold; /* Optionnel : pour rendre le texte plus visible */
+}
+/* style.css */
+
+/* Style général de l'application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Style pour le logo */
+.app-logo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #50a8e1;
+    -fx-text-fill: white;
+    -fx-padding: 8px 15px;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3d86b8;
+}
+
+/* Style pour la zone de contenu principale */
+#contentArea {
+    -fx-padding: 20px;
+}
