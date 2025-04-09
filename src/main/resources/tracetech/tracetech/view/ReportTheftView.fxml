@@ -56,4 +56,6 @@
 
     <Button text="Signaler le vol" GridPane.columnIndex="1" GridPane.rowIndex="9"
             onAction="#handleReportTheftStolenItem"/>
+
+             <Button text="Acceuil" onAction="#handleAcceuil" GridPane.columnIndex="1" GridPane.rowIndex="10"/>
 </GridPane>

@@ -16,6 +16,7 @@ L'objectif de TraceTech est de fournir une plateforme centralisée pour signaler
   - [Technologies utilisées](#technologies-utilisées)
   - [Installation](#installation)
   - [Utilisation](#utilisation)
+- [Test](#test)
   - [Architecture du projet](#architecture-du-projet)
   - [Améliorations possibles](#améliorations-possibles)
   - [Auteur](#auteur)
@@ -70,6 +71,13 @@ TraceTech offre les fonctionnalités suivantes :
 3.  Pour signaler un vol, accédez à la section "Signaler un vol" et remplissez le formulaire.
 4.  Pour rechercher un objet, accédez à la section "Rechercher un objet" et utilisez les critères de recherche disponibles.
 
+# Test
+
+* User
+  * Username : Delmat
+  * password Test@123
+* StolenItem
+* IMEI 123456
 ## Architecture du projet
 
 L'architecture du projet est basée sur les principes de la programmation orientée objet et suit une structure MVC (Modèle-Vue-Contrôleur) :

@@ -1,18 +1,21 @@
 package tracetech.tracetech.controller;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import tracetech.tracetech.LoadView;
 import tracetech.tracetech.model.StolenItem;
 import tracetech.tracetech.service.StolenItemService;
 
-public class SearchController  {
+public class SearchController  extends LoadView{
 
     @FXML private TextField imeiField;
     @FXML private TextField serialNumberField;
@@ -91,5 +94,14 @@ public class SearchController  {
         }
 
         resultsListView.setItems(displayResults);
+    }
+
+    @FXML
+    public void handleAcceuil(ActionEvent event) throws IOException{
+        loadView(event);
+    }
+    @Override
+    protected String getFXMLFileName() {
+        return "/tracetech/tracetech/view/MainView.fxml";  // Chemin vers le fichier MainView.fxml
     }
 }

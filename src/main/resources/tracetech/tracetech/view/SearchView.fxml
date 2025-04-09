@@ -43,4 +43,5 @@
         <ComboBox fx:id="dateFilterComboBox"/>
         <Button text="Appliquer Filtres" onAction="#applyFilters"/>
     </HBox>
+    <Button text="Acceuil" onAction="#handleAcceuil" GridPane.columnIndex="1" GridPane.rowIndex="7"/>
 </GridPane>

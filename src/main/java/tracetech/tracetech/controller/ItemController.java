@@ -20,11 +20,12 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image; // Utiliser DatePicker
 import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
+import tracetech.tracetech.LoadView;
 import tracetech.tracetech.model.StolenItem;
 import tracetech.tracetech.model.User;
 import tracetech.tracetech.service.StolenItemService;
 
-public class ItemController  {
+public class ItemController extends LoadView  {
 
     @FXML private TextField typeField;
     @FXML private TextField markField;
@@ -184,5 +185,13 @@ public class ItemController  {
         selectedProofOfPurchaseFile = null;
     }
 
+    @FXML
+    public void handleAcceuil(ActionEvent event) throws IOException{
+        loadView(event);
+    }
+    @Override
+    protected String getFXMLFileName() {
+        return "/tracetech/tracetech/view/MainView.fxml";  // Chemin vers le fichier MainView.fxml
+    }
 
 }
